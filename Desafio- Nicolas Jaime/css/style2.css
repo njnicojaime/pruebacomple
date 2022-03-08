@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,300;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import 'animate.css';
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width:600px){
+
+
+    .body{background-image: radial-gradient( circle 674px at 3.3% 70%,  rgba(139,186,244,1) 3.4%, rgba(15,51,92,1) 30.6% );
+    }
+
+    .main{ 
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    
+    /* Footer */
+
+    .footer{
+        background-image: radial-gradient( circle 674px at 18.3% 77%,  rgba(139,186,244,1) 2.4%, rgba(15,51,92,1) 20.6% );        
+        border-top: solid 1px #d0d2d4;
+        color: white;
+        opacity: 80%;
+    }
+
+    .powered{
+        color: white;
+        opacity: 80%;
+        font-weight: bold;
+        text-align: center;        
+    }
+
+    .footerClass{
+        text-align: center;
+        font-weight: bold;
+        opacity: 80%;
+    }
+    
+    /* Pagina Alquiler- Venta */
+
+    #contePrinc{
+        height: 800px;
+    }
+
+    .row{
+        height: 50%;
+    }
+
+    .ubicacion{
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left: 1,5em;
+        color: white;       
+        opacity: 80%;
+    }
+
+    .parrafoCont{
+        font-weight: bold;
+        color: white;
+        opacity: 70%;
+        font-size: 10px;
+    }
+
+    .d-inline{
+        font-weight: bold;
+        opacity: 90%;
+    }
+
+    .tituloPags{
+        margin-top: 3rem;      
+        margin-bottom: 3rem;
+        text-align: center;  
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        opacity: 80%;
+    }
+
+    /* Pagina Nosotros */
+    
+    .clearfix{
+        height: 400px;
+        padding-left: 10rem;
+
+    }
+
+    .imgNosotros{
+        width: 500px;
+        height: 200px;               
+        padding-right: 10rem;
+        border-radius: 10px;
+    }
+
+    .parrafoNos{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        width: 500px;
+        height: 500px;
+        margin-top: 3rem;
+        padding-left: 10rem;
+        opacity: 80%;
+        
+    }
+    
+
+    /* Pagina Contacto */
+
+    #grillaContacto{
+        display: grid;
+        height: 500px;
+        grid-template-columns: 10% 40%;
+        grid-template-rows: 400px;
+        grid-template-areas: "a1 a2";
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+                      
+    }
+
+    .imgContacto{
+        width: 220px;
+        height: 300px;
+        border-radius: 10px;
+    }
+ 
+    input{
+        color: black;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;          
+    }
+
+    textarea{
+        color: black;
+        width: 200px;
+        height: 100px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }
+
+    .textoForm{
+        width: 200px;
+    }
+
+    .formInfo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 200px;
+        align-items: center;
+        background-color: #0093E9;
+        background-image: linear-gradient(83deg, #0093E9 0%, #ffffff 100%);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 4px;
+        text-align: center;       
+    }   
+
+}
+
+@media screen and (min-width:600px){
+
+
+    body{
+        background-image: radial-gradient( circle 674px at 18.3% 77%,  rgba(139,186,244,1) 3.4%, rgba(15,51,92,1) 56.6% );
+    }
+
+    /* Nav */
+   
+    .navbar{
+        border-bottom: solid 1px white;
+        opacity: 80%;
+
+    }
+
+    .navbar-nav{ 
+        padding-left: 40rem;
+    }
+
+    a{
+        color: white;     
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        padding: 0rem 2rem;                    
+    }
+
+    
+    /* Index */
+
+    .tituloPrinc{
+        color: rgb(255, 255, 255);
+        opacity: 80%;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;        
+    }
+
+   .d-inline{
+        margin-bottom: 3rem;
+        font-weight: bold;
+        opacity: 80%;
+    }
+    
+    .main{ 
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+
+    .slide{
+        border-radius: 2rem;
+        width: 600px;
+        height: 400px;
+    }
+
+    .titulosDesta{
+        font-weight: bold;
+        font-size: 30px;
+        background-image: radial-gradient( circle 674px at 18.3% 40%,  rgb(24, 84, 153) 1.4%, rgba(15,51,92,1) 56.6% );
+        opacity: 80%;
+    }
+
+    .parrafosDesta{
+        font-size: 20px;
+        background-color: #ffffff;
+        color: black;
+        opacity:70%;
+        font-weight: bold;
+
+    }
+  
+    /* Footer */
+
+    .footer{
+        background-image: radial-gradient( circle 674px at 18.3% 77%,  rgb(22, 72, 133) 3.4%, rgba(15,51,92,1) 56.6% );        height: 120px;
+        border-top: solid 1px #d0d2d4;
+        margin-top: 6rem;
+        margin-bottom: 0%;
+        color: white;
+        opacity: 80%;
+    }
+
+    .powered{
+        color: white;
+        opacity: 80%;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .footerClass{
+        display: flex;
+        justify-content: space-around;
+        font-weight: bold;
+    }
+
+
+    /* Pagina Alquiler- Venta */
+
+    #contePrinc{
+        height: 800px;
+    }
+
+    .row{
+        height: 50%;
+    }
+
+    .ubicacion{
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        padding-left: 1,5em;
+        color: white;       
+        opacity: 80%;
+    }
+
+    .parrafoCont{
+        font-weight: bold;
+        color: white;
+        opacity: 70%;
+        font-size: 12px;
+    }
+
+    .d-inline{
+        font-weight: bold;
+        opacity: 90%;
+    }
+
+    .tituloPags{
+        margin-top: 3rem;      
+        margin-bottom: 3rem;
+        text-align: center;  
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        opacity: 80%;
+    }
+  
+    .img-fluid{
+        transition: all 2s;   
+    }
+
+
+    .img-fluid:hover{
+        width: 400px;
+        
+    
+    }
+   
+
+    /* Pagina Nosotros */
+
+    .clearfix{
+        height: 400px;
+        padding-left: 10rem;
+
+    }
+
+    .imgNosotros{
+        width: 500px;
+        height: 200px;               
+        padding-right: 10rem;
+        border-radius: 10px;
+    }
+
+    .parrafoNos{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        width: 500px;
+        height: 500px;
+        margin-top: 3rem;
+        padding-left: 10rem;
+        opacity: 80%;
+        
+    }
+
+    /* Pagina Contacto */
+
+    #grillaContacto{
+        display: grid;
+        height: 300px;
+        grid-template-columns: 20% 40%;
+        grid-template-rows: 200px;
+        grid-template-areas: "a1 a2";
+        justify-content: space-evenly;
+        align-items:center;
+        margin-top: 12rem;          
+    }
+ 
+
+    .imgContacto{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 4rem;
+        border-radius: 10px;
+    }
+ 
+
+    input{
+        color: black;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;       
+        
+    }
+
+    textarea{
+        color: black;
+        width: 250px;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }
+
+    .textoForm{
+        width: 250px;
+    }
+    
+        
+    .formInfo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 250px;
+        align-items: center;
+        background-color: #0093E9;
+        background-image: radial-gradient( circle 674px at 18.3% 45%,  rgb(5, 76, 163) 3.4%, rgba(15,51,92,1) 56.6% );
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 4px;
+        text-align: center;     
+    }   
+
+    
+
+}
+
+
